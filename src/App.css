@@ -1,0 +1,78 @@
+
+.bannermain {
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-left: 2rem;
+}
+
+.main {
+    background-image: url('./assets/img/fondo2.png');
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 14rem;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0.6rem;
+    border-radius: 0.25rem;
+}
+
+.mainbody {
+    display: flex;
+    flex-direction: column;
+    width: 21rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+nav div {
+    background-color: rgb(5, 173, 173);
+    color: white;
+    margin-right: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.25rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+table img {
+    width: 6rem;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    background-color: teal !important;
+    color: white;
+    font-size: 0.9rem !important;
+    border: none !important;
+}
+
+button:hover {
+    background-color: #055fa8 !important;
+}
+
+.priceCart {
+    border: 1px solid white;
+    border-radius: 0.25em;
+    padding: 0.2rem;
+}
+
+.pixelPizza img {
+    max-width: -webkit-fill-available;
+}
+
+.scroll-container {
+    overflow-x: auto; 
+    white-space: nowrap; 
+    min-width: 100%; 
+    max-width: 100%;
+}
